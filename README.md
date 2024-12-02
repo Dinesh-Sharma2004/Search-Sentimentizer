@@ -6,16 +6,22 @@ Search and Scrape: Fetches search results for any topic from Google using SerpAP
 Sentiment Analysis: Analyzes the sentiment of the search result snippets, categorizing them as positive, neutral, or negative.
 Intuitive Web Interface: Simple and user-friendly interface for entering topics and viewing sentiment results.
 Custom Ranking: Displays results ranked by sentiment polarity.
+
+
 🛠️ Technologies Used
 Python: Core programming language.
 Flask: Web framework for creating the application.
 SerpAPI: API for fetching Google search results.
 TextBlob: Library for performing sentiment analysis.
 HTML/CSS: For the frontend.
+
+
 📋Prerequisites
 Python 3.8 or higher.
 A valid SerpAPI API key.
 Basic understanding of Python and Flask.
+
+
 📦Installation
 Clone the Repository:
 
@@ -49,6 +55,8 @@ Sentiment polarity ranges from -1 (very negative) to 1 (very positive).
 Results are displayed in two sections:
 Positive Sentiments: Top-ranked results with positive polarity.
 Negative Sentiments: Lower-ranked results with negative polarity.
+
+
 📂 Project Structure
 Search-Sentimentizer/
 ├── templates/
@@ -57,6 +65,8 @@ Search-Sentimentizer/
 ├── app.py                  # Main application
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
+
+
 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
