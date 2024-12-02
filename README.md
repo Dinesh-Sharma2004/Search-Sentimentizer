@@ -59,11 +59,17 @@ Negative Sentiments: Lower-ranked results with negative polarity.
 
 📂 Project Structure
 Search-Sentimentizer/
+
 ├── templates/
+
 │   ├── index.html          # Homepage
+
 │   ├── results.html        # Results page
+
 ├── app.py                  # Main application
+
 ├── requirements.txt        # Python dependencies
+
 ├── README.md               # Project documentation
 
 
