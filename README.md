@@ -3,12 +3,16 @@ A Python-based web application that combines web scraping and sentiment analysis
 
 🚀Features
 Search and Scrape: Fetches search results for any topic from Google using SerpAPI.
+
 Sentiment Analysis: Analyzes the sentiment of the search result snippets, categorizing them as positive, neutral, or negative.
+
 Intuitive Web Interface: Simple and user-friendly interface for entering topics and viewing sentiment results.
+
 Custom Ranking: Displays results ranked by sentiment polarity.
 
 
 🛠️ Technologies Used
+
 Python: Core programming language.
 Flask: Web framework for creating the application.
 SerpAPI: API for fetching Google search results.
@@ -17,6 +21,7 @@ HTML/CSS: For the frontend.
 
 
 📋Prerequisites
+
 Python 3.8 or higher.
 A valid SerpAPI API key.
 Basic understanding of Python and Flask.
