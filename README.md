@@ -1,7 +1,7 @@
 # Search-Sentimentizer
 A Python-based web application that combines web scraping and sentiment analysis to fetch search results from Google and analyze their sentiment. This project uses SerpAPI to retrieve search results and TextBlob for sentiment analysis, all integrated into a Flask web application.
 
-🚀Features
+#Features
 Search and Scrape: Fetches search results for any topic from Google using SerpAPI.
 
 Sentiment Analysis: Analyzes the sentiment of the search result snippets, categorizing them as positive, neutral, or negative.
@@ -11,7 +11,7 @@ Intuitive Web Interface: Simple and user-friendly interface for entering topics 
 Custom Ranking: Displays results ranked by sentiment polarity.
 
 
-🛠️ Technologies Used
+#Technologies Used
 
 Python: Core programming language.
 Flask: Web framework for creating the application.
@@ -19,15 +19,14 @@ SerpAPI: API for fetching Google search results.
 TextBlob: Library for performing sentiment analysis.
 HTML/CSS: For the frontend.
 
-
-📋Prerequisites
+#Prerequisites
 
 Python 3.8 or higher.
 A valid SerpAPI API key.
 Basic understanding of Python and Flask.
 
 
-📦Installation
+#Installation
 Clone the Repository:
 
 git clone https://github.com/Dinesh-Sharma2004/Search-Sentimentizer.git
@@ -62,28 +61,21 @@ Positive Sentiments: Top-ranked results with positive polarity.
 Negative Sentiments: Lower-ranked results with negative polarity.
 
 
-📂 Project Structure
+#Project Structure
 Search-Sentimentizer/
 
-├── templates/
-
-│   ├── index.html          # Homepage
-
-│   ├── results.html        # Results page
-
-├── app.py                  # Main application
-
-├── requirements.txt        # Python dependencies
-
-├── README.md               # Project documentation
+templates/
+  ├── index.html          # Homepage
+  |── results.html        # Results page
+  ├── app.py                  # Main application
+  ├── requirements.txt        # Python dependencies
+  ├── README.md               # Project documentation
 
 
-🤝 Contributing
+# Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
-🛡️ License
-This project is licensed under the MIT License.
 
-✨ Acknowledgments
+# Acknowledgments
 1. SerpAPI for web scraping.
 2. TextBlob for sentiment analysis.
