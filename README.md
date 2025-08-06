@@ -54,7 +54,7 @@ Enter a Topic:
 
 Enter any topic in the search bar.
 Click Search to retrieve and analyze the results.
-📊 Sentiment Analysis
+#Sentiment Analysis
 Sentiment polarity ranges from -1 (very negative) to 1 (very positive).
 Results are displayed in two sections:
 Positive Sentiments: Top-ranked results with positive polarity.
@@ -66,10 +66,15 @@ Search-Sentimentizer/
 
 templates/
   ├── index.html          # Homepage
+  
   |── results.html        # Results page
+  
   ├── app.py                  # Main application
+  
   ├── requirements.txt        # Python dependencies
+  
   ├── README.md               # Project documentation
+  
 
 
 # Contributing
